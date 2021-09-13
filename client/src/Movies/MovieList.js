@@ -16,7 +16,7 @@ function MovieDetails(props) {
   const { title, director, metascore, id } = props.movie;
   const history = useHistory();
   const MovieInfo = () => {
-    history.push(`/movies/${id}`)
+    history.push(`/save-wrapper/${id}`)
   }
 
   return (
